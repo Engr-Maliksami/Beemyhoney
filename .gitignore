@@ -1,0 +1,36 @@
+# Environment
+.env
+.env.backup
+
+# Secrets
+google-credentials.json
+/storage/*.key
+
+# Dependencies
+/vendor
+/node_modules
+
+# IDE / Editor
+/.idea
+/.vscode
+
+# Laravel / PHP
+/public/hot
+/public/storage
+.phpunit.result.cache
+
+# Generated files
+/public/qrcodes/
+
+# Database dumps
+*.sql
+/sql/
+
+# Archives / backups
+*.zip
+*.tar
+*.gz
+
+# Logs
+npm-debug.log
+yarn-error.log
